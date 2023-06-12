@@ -1,0 +1,19 @@
+This code not only shows the total count of fingers, but also displays a bounding box around the detected hand.
+Additionally, it uses the model's hand classification feature to distinguish between the left and right hand and
+adjust the thumb detection accordingly. If it's a left hand, the logic for thumb detection flips. It assumes the
+webcam is in a regular position (i.e., not mirrored). If your webcam is mirrored, you might need to adjust the
+thumb detection logic.
+
+
+-necessary libraries :
+
+pip install opencv-python
+pip install mediapipe
+
+
+
+
+
+
+
+
